@@ -1,4 +1,4 @@
-import { Link, Route, Routes } from "react-router-dom";
+import { NavLink, Route, Routes } from "react-router-dom";
 import './App.css';
 import Home from './pages/Home';
 import About from "./pages/About";
@@ -12,11 +12,11 @@ function App() {
     <>
     <nav>
       <ul>
-        <li><Link to={'/'}>Home</Link></li>
-        <li><Link to={'/about'}>About</Link></li>
-        <li><Link to={'/portfolio'}>Portfolio</Link></li>
-        <li><Link to={'/contact'}>Contact</Link></li>
-        <li><Link to={'/resume'}>Resume</Link></li>
+        <li><NavLink to={'/'}>Home</NavLink></li>
+        <li><NavLink to={'/about'}>About</NavLink></li>
+        <li><NavLink to={'/portfolio'}>Portfolio</NavLink></li>
+        <li><NavLink to={'/contact'}>Contact</NavLink></li>
+        <li><NavLink to={'/resume'}>Resume</NavLink></li>
       </ul>  
     </nav>
     <Routes>
