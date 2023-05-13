@@ -37,6 +37,14 @@
   }
 }
 
-.active {
-  color: red;
+.nav-link {
+  padding: 5px; 
+}
+
+.nav-link:hover {
+  color: seagreen;
+}
+
+.nav-link.active {
+  color: cornflowerblue;
 }
