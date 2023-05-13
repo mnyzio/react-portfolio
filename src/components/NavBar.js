@@ -1,16 +1,35 @@
 import { NavLink } from "react-router-dom";
 
 function NavBar() {
-    return (
-        <nav>
-            <ul>
-                <li><NavLink to={'/'} className={"nav-link"}>About Me</NavLink></li>
-                <li><NavLink to={'/portfolio'} className={"nav-link"}>Portfolio</NavLink></li>
-                <li><NavLink to={'/contact'} className={"nav-link"}>Contact</NavLink></li>
-                <li><NavLink to={'/resume'} className={"nav-link"} >Resume</NavLink></li>
-            </ul>
-        </nav>
-    )
+  return (
+    <nav className="flex justify-between">
+      <div>
+        <h4>Mirek Nyzio</h4>
+      </div>
+      <ul className="flex">
+        <li>
+          <NavLink to={"/"} className={"hover:text-orange"}>
+            About Me
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to={"/portfolio"} className={"hover:text-orange"}>
+            Portfolio
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to={"/contact"} className={"hover:text-orange"}>
+            Contact
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to={"/resume"} className={"hover:text-orange"}>
+            Resume
+          </NavLink>
+        </li>
+      </ul>
+    </nav>
+  );
 }
 
 export default NavBar;

@@ -15,15 +15,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-.nav-link {
-  padding: 5px; 
-}
-
-.nav-link:hover {
-  color: seagreen;
-}
-
-.nav-link.active {
-  color: cornflowerblue;
-}
