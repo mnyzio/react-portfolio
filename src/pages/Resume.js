@@ -1,8 +1,7 @@
-import React from "react";
-// import { useState, useEffect } from 'react';
-
-function Resume() {
-  return <h3 className="text-5xl">Resume</h3>;
+export default function Resume() {
+  return (
+    <section className="py-4">
+      <h3 className="text-5xl font-bold">Resume</h3>
+    </section>
+  );
 }
-
-export default Resume;

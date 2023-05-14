@@ -1,10 +1,6 @@
-import React from "react";
-// import { useState, useEffect } from 'react';
 import { Navigate } from "react-router-dom";
 
-function NotFound() {
+export default function NotFound() {
   // Navigate back to home page
   return <Navigate to="/" />;
 }
-
-export default NotFound;

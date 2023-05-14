@@ -1,8 +1,7 @@
-import React from "react";
-// import { useState, useEffect } from 'react';
-
-function Contact() {
-  return <h3 className="text-5xl">Contact</h3>;
+export default function Contact() {
+  return (
+    <section className="py-4">
+      <h3 className="text-5xl font-bold">Contact</h3>
+    </section>
+  );
 }
-
-export default Contact;

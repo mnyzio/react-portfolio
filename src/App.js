@@ -15,7 +15,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     // Page wrapper
-    <div className="w-full flex flex-col items-center px-2 sm:px-8">
+    <div className="w-full flex flex-col items-center px-4 sm:px-12">
       {/* Content wrapper */}
       <div className="bg-white w-full max-w-screen-xl m-4 p-4 rounded-lg shadow-lg">
         <NavBar />
