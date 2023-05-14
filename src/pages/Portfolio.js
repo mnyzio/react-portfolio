@@ -2,7 +2,7 @@ import React from "react";
 // import { useState, useEffect } from 'react';
 
 function Portfolio() {
-  return <h1>Portfolio</h1>;
+  return <h3 className="text-5xl">Portfolio</h3>;
 }
 
 export default Portfolio;

@@ -7,7 +7,7 @@ function Footer() {
       <div>
         {/* <!-- Links to social platforms --> */}
         <ul className="flex justify-center gap-x-2">
-          <li>
+          <li className="hover:text-orange">
             <NavLink to="https://www.twitter.com/@MirekNyzio" target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -20,7 +20,7 @@ function Footer() {
               </svg>
             </NavLink>
           </li>
-          <li>
+          <li className="hover:text-orange">
             <NavLink to="https://www.linkedin.com/in/mnyzio" target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +33,7 @@ function Footer() {
               </svg>
             </NavLink>
           </li>
-          <li>
+          <li className="hover:text-orange">
             <NavLink to="https://www.github.com/mnyzio" target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -47,13 +47,7 @@ function Footer() {
             </NavLink>
           </li>
         </ul>
-      </div>
-      {/* <!-- Copyright section --> */}
-      <div>
-        <p className="text-center">
-          Copyright © Mirek Nyzio {new Date().getFullYear()}
-        </p>
-      </div>
+      </div>      
     </footer>
   );
 }
