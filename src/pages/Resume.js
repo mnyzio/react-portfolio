@@ -1,7 +1,15 @@
+import { motion as m } from "framer-motion";
+
 export default function Resume() {
   return (
-    <section className="py-4">
+    <m.div
+      initial={{ y: "20%", opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.75, ease: "easeOut" }}
+      exit={{ opacity: 0 }}
+      className="py-4"
+    >
       <h3 className="text-5xl font-bold">Resume</h3>
-    </section>
+    </m.div>
   );
 }
