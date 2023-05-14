@@ -5,7 +5,7 @@ function Footer() {
     <footer>
       {/* <!-- Links to social platforms --> */}
       <ul className="flex justify-center gap-x-3">
-        <li className="hover:text-orange">
+        <li className="transform-all duration-300 hover:text-orange hover:scale-110">
           <NavLink to="https://www.twitter.com/@MirekNyzio" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -18,7 +18,7 @@ function Footer() {
             </svg>
           </NavLink>
         </li>
-        <li className="hover:text-orange">
+        <li className="transform-all duration-300 hover:text-orange hover:scale-110">
           <NavLink to="https://www.linkedin.com/in/mnyzio" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +31,7 @@ function Footer() {
             </svg>
           </NavLink>
         </li>
-        <li className="hover:text-orange">
+        <li className="transform-all duration-300 hover:text-orange hover:scale-110">
           <NavLink to="https://www.github.com/mnyzio" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
