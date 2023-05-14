@@ -2,18 +2,18 @@ import { NavLink } from "react-router-dom";
 
 function NavBar() {
   return (
-    <nav className="flex justify-between py-3 items-center">
+    <nav className="flex justify-between items-center">
       <div>
         <h4>Mirek Nyzio</h4>
       </div>
-      <ul className="flex gap-x-3">
+      <ul className="flex gap-x-2">
         <NavLink
           to={"/"}
           className={({ isActive }) => {
             if (isActive) {
-              return "p-2 rounded bg-orange text-white shadow-xl";
+              return "p-1 rounded bg-orange text-white shadow-xl";
             } else {
-              return "p-2 rounded hover:text-white hover:bg-orange transform-all duration-300 hover:scale-110 hover:shadow-xl ";
+              return "p-1 rounded hover:text-white hover:bg-orange transform-all duration-300 hover:shadow-xl ";
             }
           }}
         >
@@ -23,9 +23,9 @@ function NavBar() {
           to={"/portfolio"}
           className={({ isActive }) => {
             if (isActive) {
-              return "p-2 rounded bg-orange text-white shadow-xl";
+              return "p-1 rounded bg-orange text-white shadow-xl";
             } else {
-              return "p-2 rounded hover:text-white hover:bg-orange transform-all duration-300 hover:scale-110 hover:shadow-xl ";
+              return "p-1 rounded hover:text-white hover:bg-orange transform-all duration-300 hover:shadow-xl ";
             }
           }}
         >
@@ -35,9 +35,9 @@ function NavBar() {
           to={"/contact"}
           className={({ isActive }) => {
             if (isActive) {
-              return "p-2 rounded bg-orange text-white shadow-xl";
+              return "p-1 rounded bg-orange text-white shadow-xl";
             } else {
-              return "p-2 rounded hover:text-white hover:bg-orange transform-all duration-300 hover:scale-110 hover:shadow-xl ";
+              return "p-1 rounded hover:text-white hover:bg-orange transform-all duration-300 hover:shadow-xl ";
             }
           }}
         >
@@ -47,9 +47,9 @@ function NavBar() {
           to={"/resume"}
           className={({ isActive }) => {
             if (isActive) {
-              return "p-2 rounded bg-orange text-white shadow-xl";
+              return "p-1 rounded bg-orange text-white shadow-xl";
             } else {
-              return "p-2 rounded hover:text-white hover:bg-orange transform-all duration-300 hover:scale-110 hover:shadow-xl ";
+              return "p-1 rounded hover:text-white hover:bg-orange transform-all duration-300 hover:shadow-xl ";
             }
           }}
         >
