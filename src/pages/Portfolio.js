@@ -13,13 +13,14 @@ export default function Portfolio(props) {
         className="py-4"
       >
         <h3 className="text-5xl font-bold">Portfolio</h3>
+        <h5 className="p-4 leading-8">Here are some of my projects:</h5>
         {/* project container */}
-        <div className="flex">
+        <div className="flex flex-wrap justify-evenly p-4 gap-x-2 gap-y-4">
           {/* Loop through all the projects creating card for each */}
           {/* project card */}
           {props.projects.map((project) => (
             <div
-              className="max-w-sm rounded overflow-hidden shadow-lg"
+              className="max-w-sm rounded overflow-hidden shadow-lg border"
               key={project.id}
             >
               <img
