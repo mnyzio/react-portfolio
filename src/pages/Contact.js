@@ -98,7 +98,7 @@ export default function Contact() {
   return (
     <>
       <m.section
-        initial={{ y: "10%", opacity: 0 }}
+        initial={{ y: "10", opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.75, ease: "easeOut" }}
         exit={{ opacity: 0 }}
@@ -228,7 +228,7 @@ export default function Contact() {
           </div>
           {errorMessage && (
             <m.div
-              initial={{ y: "10%", opacity: 0 }}
+              initial={{ y: "10", opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.75, ease: "easeOut" }}
               exit={{ opacity: 0 }}

@@ -3,7 +3,7 @@ import { motion as m } from "framer-motion";
 
 // Source https://www.framer.com/motion/transition/
 const container = {
-  hidden: { y: "30%", opacity: 0 },
+  hidden: { y: "10", opacity: 0 },
   show: {
     opacity: 1,
     y: 0,

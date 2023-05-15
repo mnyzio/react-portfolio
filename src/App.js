@@ -10,6 +10,8 @@ import Resume from "./pages/Resume";
 import NotFound from "./pages/NotFound";
 // Components
 import NavBar from "./components/NavBar";
+// Projects
+import { projects } from "./utils/projects/projects";
 
 function App() {
   return (
@@ -20,7 +22,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<About />} />
-          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/portfolio" element={<Portfolio projects={ projects } />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<NotFound />} />
