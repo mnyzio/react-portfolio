@@ -1,7 +1,9 @@
 import { motion as m } from "framer-motion";
+import Footer from "../components/Footer";
 
 export default function About() {
   return (
+    <>
     <m.div
       initial={{ y: "10%", opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
@@ -17,5 +19,7 @@ export default function About() {
         with the goal of customer satisfaction.
       </p>
     </m.div>
+    <Footer />
+    </>
   );
 }

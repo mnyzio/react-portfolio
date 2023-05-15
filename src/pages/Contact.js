@@ -1,6 +1,7 @@
 import { useState } from "react";
 import validateEmail from "../utils/helpers";
 import { motion as m } from "framer-motion";
+import Footer from "../components/Footer";
 
 export default function Contact() {
   // Create state variables htmlFor the fields in the form
@@ -58,112 +59,117 @@ export default function Contact() {
   };
 
   return (
-    <m.section
-      initial={{ y: "10%", opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.75, ease: "easeOut" }}
-      exit={{ opacity: 0 }}
-      className="py-4"
-    >
-      <h3 className="text-5xl font-bold">Contact</h3>
-      <div className="p-4 leading-8 md:text-center">
-        <p>Get in touch! I'd love to hear from you.</p>
-        <p>I always welcome any opportunity to grow and expand upon my skills.</p>
-        <p>Have any questions or ideas you would like to discuss ?</p>
-        <p>Let's meet, coffee's on me!</p>
-      </div>
-      <form className="w-full max-w-lg mx-auto py-4">
-        <div className="md:flex md:items-center mb-6">
-          <div className="md:w-1/3">
-            <label
-              className="block font-bold md:text-right mb-1 md:mb-0 pr-4"
-              htmlFor="full-name"
-            >
-              Full Name
-            </label>
-          </div>
-          <div className="md:w-2/3">
-            <input
-              className="bg-gray-200 appearance-none border-2 border-body-bg-color rounded w-full py-2 px-4 leading-tight focus:outline-none focus:bg-white focus:border-orange"
-              name="full-name"
-              id="full-name"
-              onChange={handleInputChange}
-              value={name}
-              type="text"
-              placeholder="Jane Doe"
-            />
-          </div>
+    <>
+      <m.section
+        initial={{ y: "10%", opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.75, ease: "easeOut" }}
+        exit={{ opacity: 0 }}
+        className="py-4"
+      >
+        <h3 className="text-5xl font-bold">Contact</h3>
+        <div className="p-4 leading-8 md:text-center">
+          <p>Get in touch! I'd love to hear from you.</p>
+          <p>
+            I always welcome any opportunity to grow and expand upon my skills.
+          </p>
+          <p>Have any questions or ideas you would like to discuss ?</p>
+          <p>Let's meet, coffee's on me!</p>
         </div>
-        <div className="md:flex md:items-center mb-6">
-          <div className="md:w-1/3">
-            <label
-              className="block font-bold md:text-right mb-1 md:mb-0 pr-4"
-              htmlFor="email"
-            >
-              E-mail
-            </label>
+        <form className="w-full max-w-lg mx-auto py-4">
+          <div className="md:flex md:items-center mb-6">
+            <div className="md:w-1/3">
+              <label
+                className="block font-bold md:text-right mb-1 md:mb-0 pr-4"
+                htmlFor="full-name"
+              >
+                Full Name
+              </label>
+            </div>
+            <div className="md:w-2/3">
+              <input
+                className="bg-gray-200 appearance-none border-2 border-body-bg-color rounded w-full py-2 px-4 leading-tight focus:outline-none focus:bg-white focus:border-orange"
+                name="full-name"
+                id="full-name"
+                onChange={handleInputChange}
+                value={name}
+                type="text"
+                placeholder="Jane Doe"
+              />
+            </div>
           </div>
-          <div className="md:w-2/3">
-            <input
-              className="bg-gray-200 appearance-none border-2 border-body-bg-color rounded w-full py-2 px-4 leading-tight focus:outline-none focus:bg-white focus:border-orange"
-              name="email"
-              id="email"
-              onChange={handleInputChange}
-              value={email}
-              type="text"
-              placeholder="jdoe@example.com"
-            />
+          <div className="md:flex md:items-center mb-6">
+            <div className="md:w-1/3">
+              <label
+                className="block font-bold md:text-right mb-1 md:mb-0 pr-4"
+                htmlFor="email"
+              >
+                E-mail
+              </label>
+            </div>
+            <div className="md:w-2/3">
+              <input
+                className="bg-gray-200 appearance-none border-2 border-body-bg-color rounded w-full py-2 px-4 leading-tight focus:outline-none focus:bg-white focus:border-orange"
+                name="email"
+                id="email"
+                onChange={handleInputChange}
+                value={email}
+                type="text"
+                placeholder="jdoe@example.com"
+              />
+            </div>
           </div>
-        </div>
-        <div className="md:flex md:items-center mb-6">
-          <div className="md:w-1/3">
-            <label
-              className="block font-bold md:text-right mb-1 md:mb-0 pr-4"
-              htmlFor="message"
-            >
-              Message
-            </label>
+          <div className="md:flex md:items-center mb-6">
+            <div className="md:w-1/3">
+              <label
+                className="block font-bold md:text-right mb-1 md:mb-0 pr-4"
+                htmlFor="message"
+              >
+                Message
+              </label>
+            </div>
+            <div className="md:w-2/3">
+              <textarea
+                className="bg-gray-200 appearance-none border-2 border-body-bg-color rounded w-full py-2 px-4 leading-tight focus:outline-none focus:bg-white focus:border-orange"
+                name="message"
+                id="message"
+                onChange={handleInputChange}
+                value={message}
+                type="text"
+                placeholder="Type here..."
+                rows={10}
+              />
+            </div>
           </div>
-          <div className="md:w-2/3">
-            <textarea
-              className="bg-gray-200 appearance-none border-2 border-body-bg-color rounded w-full py-2 px-4 leading-tight focus:outline-none focus:bg-white focus:border-orange"
-              name="message"
-              id="message"
-              onChange={handleInputChange}
-              value={message}
-              type="text"
-              placeholder="Type here..."
-              rows={10}
-            />
-          </div>
-        </div>
-        <div className="md:flex md:items-center">
-          <div className="md:w-1/3"></div>
-          <div className="md:w-2/3">
-            <button
-              className="shadow bg-orange hover:opacity-90 transition-all duration-300 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
-              type="button"
-              onClick={handleFormSubmit}
-            >
-              Submit
-            </button>
-          </div>
-        </div>
-        {errorMessage && (
-          <m.div
-            initial={{ y: "10%", opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.75, ease: "easeOut" }}
-            exit={{ opacity: 0 }}
-            className="md:flex md:items-center"
-          >
+          <div className="md:flex md:items-center">
             <div className="md:w-1/3"></div>
             <div className="md:w-2/3">
-              <p className="error-text text-red-600 mt-3">{errorMessage}</p>
+              <button
+                className="shadow bg-orange hover:opacity-90 transition-all duration-300 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
+                type="button"
+                onClick={handleFormSubmit}
+              >
+                Submit
+              </button>
             </div>
-          </m.div>
-        )}
-      </form>
-    </m.section>
+          </div>
+          {errorMessage && (
+            <m.div
+              initial={{ y: "10%", opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.75, ease: "easeOut" }}
+              exit={{ opacity: 0 }}
+              className="md:flex md:items-center"
+            >
+              <div className="md:w-1/3"></div>
+              <div className="md:w-2/3">
+                <p className="error-text text-red-600 mt-3">{errorMessage}</p>
+              </div>
+            </m.div>
+          )}
+        </form>
+      </m.section>
+      <Footer />
+    </>
   );
 }

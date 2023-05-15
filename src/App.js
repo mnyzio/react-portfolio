@@ -10,7 +10,6 @@ import Resume from "./pages/Resume";
 import NotFound from "./pages/NotFound";
 // Components
 import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -26,7 +25,6 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-        <Footer />
       </div>
       {/* <!-- Copyright section --> */}
       <div>
