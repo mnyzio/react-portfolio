@@ -8,9 +8,9 @@ const container = {
     opacity: 1,
     y: 0,
     transition: {
-      staggerChildren: 0.2,
-      duration: 0.75,
-      ease: "easeOut",
+      staggerChildren: 0.5,
+      duration: 1.5,
+      ease: "easeIn",
     },
   },
 };
