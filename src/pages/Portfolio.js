@@ -15,12 +15,13 @@ export default function Portfolio(props) {
         <h3 className="text-5xl font-bold">Portfolio</h3>
         <h5 className="p-4 leading-8">Here are some of my projects:</h5>
         {/* project container */}
-        <div className="flex flex-wrap justify-evenly p-4 gap-x-2 gap-y-4">
+        {/* <div className="flex flex-wrap justify-evenly p-4 gafp-x-2 gap-y-4 space-x-3"> */}
+        <div className="sm:grid-cols-2 md:grid-cols-3 grid gap-4 mb-6">
           {/* Loop through all the projects creating card for each */}
           {/* project card */}
           {props.projects.map((project) => (
             <div
-              className="max-w-sm rounded overflow-hidden shadow-lg border"
+              className="mdax-w-sm rounded overflow-hidden shadow-lg border transition-all duration-300 hover:scale-105 hover:shadow-xl"
               key={project.id}
             >
               <img
