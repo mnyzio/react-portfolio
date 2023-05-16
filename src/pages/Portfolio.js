@@ -2,6 +2,23 @@ import { motion as m } from "framer-motion";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 
+const container = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,    
+    transition: {
+      staggerChildren: 0.5,
+      duration: 2.5,
+      ease: "easeIn",
+    },
+  },
+};
+
+const item = {
+  hidden: { opacity: 0 },
+  show: { opacity: 1 },
+};
+
 export default function Portfolio(props) {
   return (
     <>
@@ -16,11 +33,17 @@ export default function Portfolio(props) {
         <h5 className="p-4 leading-8">Here are some of my projects:</h5>
         {/* project container */}
         {/* <div className="flex flex-wrap justify-evenly p-4 gafp-x-2 gap-y-4 space-x-3"> */}
-        <div className="sm:grid-cols-2 md:grid-cols-3 grid gap-4 mb-6">
+        <m.div
+          variants={container}
+          initial="hidden"
+          animate="show"
+          className="sm:grid-cols-2 md:grid-cols-3 grid gap-4 mb-6"
+        >
           {/* Loop through all the projects creating card for each */}
           {/* project card */}
           {props.projects.map((project) => (
-            <div
+            <m.div
+              variants={item}
               className="mdax-w-sm rounded overflow-hidden shadow-lg border transition-all duration-300 hover:scale-105 hover:shadow-xl"
               key={project.id}
             >
@@ -47,9 +70,9 @@ export default function Portfolio(props) {
                   </div>
                 </Link>
               </div>
-            </div>
+            </m.div>
           ))}
-        </div>
+        </m.div>
       </m.div>
       <Footer />
     </>
