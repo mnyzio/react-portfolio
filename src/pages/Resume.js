@@ -9,7 +9,7 @@ export default function Resume() {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.75, ease: "easeOut" }}
         exit={{ opacity: 0 }}
-        className="py-4"
+        className="py-4 mt-8"
       >
         <h3 className="text-5xl font-bold">Resume</h3>
       </m.div>

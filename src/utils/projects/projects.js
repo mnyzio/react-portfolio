@@ -1,10 +1,11 @@
-import nexus from './img/nexus.png'
+import nexus from './img/nexus.png';
+// import techSpot from './img/tech-spot.png';
 
 const projects = [
   {
     id: "1",
     projectName: "Project Nexus",
-    projectDesc: "Stock Overflow Clone",
+    projectDesc: "A website that caters to developers of all levels, providing them with a platform to connect, collaborate, and learn from each other.",
     linkDeployed: "https://project-nexus.herokuapp.com/",
     linkGitHub: "https://github.com/arlindo2017/project-nexus",
     imageSrc: nexus,
@@ -12,12 +13,12 @@ const projects = [
   },
   {
     id: "2",
-    projectName: "Project Nexus",
-    projectDesc: "Stock Overflow Clone",
-    linkDeployed: "https://project-nexus.herokuapp.com/",
-    linkGitHub: "https://github.com/arlindo2017/project-nexus",
+    projectName: "Tech-Spot",
+    projectDesc: "CMS style Technology Blog which allows users to share their passion for tech by creating posts that other users can comment on as well as adding comments on other users posts.",
+    linkDeployed: "https://techspot.herokuapp.com/",
+    linkGitHub: "https://github.com/mnyzio/tech-spot",
     imageSrc: nexus,
-    imgAlt: "Project Nexus"
+    imgAlt: "tech-spot"
   },
   {
     id: "3",

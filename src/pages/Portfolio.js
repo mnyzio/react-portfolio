@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 const container = {
   hidden: { opacity: 0 },
   show: {
-    opacity: 1,    
+    opacity: 1,
     transition: {
-      staggerChildren: 0.5,
-      duration: 2.5,
-      ease: "easeIn",
+      delayChildren: 0.8,
+      duration: 0.8,      
+      ease: "easeInOut",
     },
   },
 };
@@ -27,7 +27,7 @@ export default function Portfolio(props) {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.75, ease: "easeOut" }}
         exit={{ opacity: 0 }}
-        className="py-4"
+        className="py-4 mt-8"
       >
         <h3 className="text-5xl font-bold">Portfolio</h3>
         <h5 className="p-4 leading-8">Here are some of my projects:</h5>
