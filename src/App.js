@@ -29,7 +29,7 @@ function App() {
         </Routes>
       </div>
       {/* <!-- Copyright section --> */}
-      <div>
+      <div className="mb-4">
         <p className="text-center">
           Copyright © Mirek Nyzio {new Date().getFullYear()}
         </p>

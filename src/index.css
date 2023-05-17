@@ -29,8 +29,8 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue'
     sans-serif;
   font-family: Verdana, Geneva, Tahoma, sans-serif; */
-  /* -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;   */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
   color: var(--font-color);
   background-color: var(--body-bg-color);
 }
