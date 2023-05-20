@@ -1,10 +1,11 @@
 import { NavLink } from "react-router-dom";
+import logo from "../img/logo.png";
 
 function NavBar() {
   return (
     <nav className="flex justify-between items-center">
-      <div>
-        <h4>Mirek Nyzio</h4>
+      <div className="w-48">
+        <img src={logo} alt="logo" />
       </div>
       <ul className="flex gap-x-2">
         <NavLink
