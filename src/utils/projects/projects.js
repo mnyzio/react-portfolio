@@ -28,7 +28,7 @@ const projects = [
   {
     id: "3",
     projectName: "Weather Dashboard",
-    projectDesc: "Weather Dashboard",
+    projectDesc: "Weather Dashboard that shows current weather and 5 day forcast for user's approximate location or any other city.",
     linkDeployed: "https://mnyzio.github.io/weather-dashboard/",
     linkGitHub: "https://github.com/mnyzio/weather-dashboard",
     imageSrc: weather,
@@ -37,7 +37,7 @@ const projects = [
   {
     id: "4",
     projectName: "Code Quiz",
-    projectDesc: "Code Quiz",
+    projectDesc: "A timed quiz with multiple-choice questions that will test user's knowledge on javascript fundamentals.",    
     linkDeployed: "https://mnyzio.github.io/code-quiz/",
     linkGitHub: "https://github.com/mnyzio/code-quiz",
     imageSrc: quiz,
@@ -46,7 +46,7 @@ const projects = [
   {
     id: "5",
     projectName: "Write It",
-    projectDesc: "Write It",
+    projectDesc: "Progressive Web Applications (PWA): Text Editor App uses IndexDB and LocalStorage which allows users to create notes or code snippets with or without internet connection that can be retrieved for later use.",
     linkDeployed: "https://write-it.herokuapp.com",
     linkGitHub: "https://github.com/mnyzio/write-it",
     imageSrc: writeIt,
@@ -55,7 +55,7 @@ const projects = [
   {
     id: "6",
     projectName: "Travel buddy",
-    projectDesc: "Travel buddy",
+    projectDesc: "Website that enables users to get lodging information based on various forms of location (either by getting their current location or searching by zip code).",
     linkDeployed: "https://jrodz0313.github.io/travelbuddy/",
     linkGitHub: "https://github.com/Jrodz0313/travelbuddy",
     imageSrc: travel,

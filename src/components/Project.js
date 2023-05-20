@@ -1,22 +1,24 @@
 import { Link } from "react-router-dom";
-import { motion as m } from 'framer-motion';
+import { motion as m } from "framer-motion";
 
 const item = {
   hidden: { opacity: 0 },
   show: { opacity: 1 },
 };
 
-function Project({project}) {
+function Project({ project }) {
   return (
     <m.div
       variants={item}
-      className="mdax-w-sm rounded overflow-hidden shadow-lg border transition-all duration-300 hover:scale-105 hover:shadow-xl"
+      className="flex flex-col justify-between urounded overflow-hidden shadow-lg border transition-all duration-300 hover:scale-105 hover:shadow-xl"
       key={project.id}
     >
-      <img className="w-full" src={project.imageSrc} alt={project.imageAlt} />
-      <div className="px-6 py-4">
-        <div className="font-bold text-xl mb-2">{project.projectName}</div>
-        <p className="text-base">{project.projectDesc}</p>
+      <div>
+        <img className="w-full" src={project.imageSrc} alt={project.imageAlt} />
+        <div className="px-6 py-4">
+          <div className="font-bold text-xl mb-2">{project.projectName}</div>
+          <p className="text-base">{project.projectDesc}</p>
+        </div>
       </div>
       <div className="px-6 pt-4 pb-2">
         <Link to={project.linkDeployed} target="_blank">
