@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.272508fa.css",
-    "main.js": "/react-portfolio/static/js/main.910ca651.js",
+    "main.css": "/react-portfolio/static/css/main.318ba256.css",
+    "main.js": "/react-portfolio/static/js/main.cc3b528d.js",
     "static/media/Profile-picture-bw.jpg": "/react-portfolio/static/media/Profile-picture-bw.117f23aef41990e11659.jpg",
     "static/media/travel-sq.png": "/react-portfolio/static/media/travel-sq.023ed4b7edf3beafde67.png",
     "static/media/nexus-sq.png": "/react-portfolio/static/media/nexus-sq.4e669753ccaf22ccd815.png",
@@ -10,11 +10,11 @@
     "static/media/quiz-sq.png": "/react-portfolio/static/media/quiz-sq.ddf3f832d21176c491fa.png",
     "static/media/writeIt-sq.png": "/react-portfolio/static/media/writeIt-sq.c327cd3ed82f52b8c5be.png",
     "index.html": "/react-portfolio/index.html",
-    "main.272508fa.css.map": "/react-portfolio/static/css/main.272508fa.css.map",
-    "main.910ca651.js.map": "/react-portfolio/static/js/main.910ca651.js.map"
+    "main.318ba256.css.map": "/react-portfolio/static/css/main.318ba256.css.map",
+    "main.cc3b528d.js.map": "/react-portfolio/static/js/main.cc3b528d.js.map"
   },
   "entrypoints": [
-    "static/css/main.272508fa.css",
-    "static/js/main.910ca651.js"
+    "static/css/main.318ba256.css",
+    "static/js/main.cc3b528d.js"
   ]
 }
