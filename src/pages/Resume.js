@@ -15,13 +15,8 @@ export default function Resume() {
       >
         {/* Title */}
         <h3 className="text-5xl font-bold">Resume</h3>
-        {/* Educaiton */}
-        <Education />
-        {/* Languages */}
-        <h5>Languages I speak</h5>
-        <Skills />
         {/* Download section */}
-        <div className="border border-orange inline-block rounded-lg p-2">
+        <div className="p-2 my-4 text-orange">
           <a
             href="./assets/files/portfolio.pdf"
             target="_blank"
@@ -45,6 +40,10 @@ export default function Resume() {
             <span className="ml-2">Download resume</span>
           </a>
         </div>
+        {/* Languages */}
+        <Skills />
+        {/* Educaiton */}
+        <Education />
       </m.div>
       <Footer />
     </>

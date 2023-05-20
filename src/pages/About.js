@@ -33,7 +33,10 @@ export default function About() {
             </div>
           </div>
           {/* Right / avatar side of hero section */}
-          <div id="hero-avatar" className="w-full flex justify-center mt-4 md:mt-0 md:w-1/2">
+          <div
+            id="hero-avatar"
+            className="w-full flex justify-center mt-4 md:mt-0 md:w-1/2"
+          >
             <img
               src={profilePic}
               alt="Avatar"
@@ -42,10 +45,11 @@ export default function About() {
           </div>
         </section>
         <p className="p-12">
-          Hi there! I'm Mirek, and I am a Full Stack Developer with background
-          in logistics and operations. Passionale developer / coder with solid
-          foundation in software development. Calm under pressure, quick learner
-          with the goal of customer satisfaction.
+          Hi there! I'm Mirek, and I am a Full Stack Developer dedicated to
+          delivering exceptional web applications that combine elegant design,
+          seamless functionality, and optimal performance. I am excited about
+          tackling new challenges and leveraging my skills to create innovative
+          and user-centric solutions.
         </p>
       </m.div>
       <Footer />
