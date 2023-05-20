@@ -1,6 +1,6 @@
 import { motion as m } from "framer-motion";
 import Footer from "../components/Footer";
-import Project from "../components/Project";
+import ProjectCard from "../components/ProjectCard";
 
 const container = {
   hidden: { opacity: 0 },
@@ -37,7 +37,7 @@ export default function Portfolio(props) {
           {/* Loop through all the projects creating card for each */}
           {/* project card */}
           {props.projects.map((project) => (            
-            <Project project={project} />
+            <ProjectCard project={project} />
           ))}
         </m.div>
       </m.div>

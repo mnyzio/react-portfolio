@@ -6,7 +6,7 @@ const item = {
   show: { opacity: 1 },
 };
 
-function Project({ project }) {
+function ProjectCard({ project }) {
   return (
     <m.div
       variants={item}
@@ -36,4 +36,4 @@ function Project({ project }) {
   );
 }
 
-export default Project;
+export default ProjectCard;

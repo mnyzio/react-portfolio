@@ -1,5 +1,7 @@
 import { motion as m } from "framer-motion";
 import Footer from "../components/Footer";
+import Skills from "../components/Skills";
+import Education from "../components/Education";
 
 export default function Resume() {
   return (
@@ -14,23 +16,10 @@ export default function Resume() {
         {/* Title */}
         <h3 className="text-5xl font-bold">Resume</h3>
         {/* Educaiton */}
-        <h5>Education</h5>
-
-        <h5>Skills / Languages</h5>
-        <ul>
-          <li>HTML</li>
-          <li>JavaScript</li>
-          <li>CSS</li>
-          <li>
-            <ul>
-              <li>Bootstrap</li>
-              <li>Tailwind</li>
-              <li>Bulma</li>
-            </ul>
-          </li>
-          <li></li>
-          <li></li>
-        </ul>
+        <Education />
+        {/* Languages */}
+        <h5>Languages I speak</h5>
+        <Skills />
         {/* Download section */}
         <div className="border border-orange inline-block rounded-lg p-2">
           <a
