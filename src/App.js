@@ -9,7 +9,8 @@ import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 import NotFound from "./pages/NotFound";
 // Components
-import NavBar from "./components/NavBar";
+// import NavBar from "./components/NavBar";
+import Nav from "./components/nav";
 // Projects
 import { projects } from "./utils/projects/projects";
 
@@ -19,10 +20,14 @@ function App() {
     <div className="w-full flex flex-col items-center px-4 sm:px-12">
       {/* Content wrapper */}
       <div className="bg-white w-full max-w-screen-lg m-4 p-4 rounded-lg shadow-lg">
-        <NavBar />
+        <Nav />
+        {/* <NavBar /> */}
         <Routes>
           <Route path="/" element={<About />} />
-          <Route path="/portfolio" element={<Portfolio projects={ projects } />} />
+          <Route
+            path="/portfolio"
+            element={<Portfolio projects={projects} />}
+          />
           <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<NotFound />} />

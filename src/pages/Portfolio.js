@@ -7,8 +7,8 @@ const container = {
   show: {
     opacity: 1,
     transition: {
-      staggerChildren: .2,
-      duration: 0.8,      
+      staggerChildren: 0.2,
+      duration: 0.8,
       ease: "easeInOut",
     },
   },
@@ -36,8 +36,8 @@ export default function Portfolio(props) {
         >
           {/* Loop through all the projects creating card for each */}
           {/* project card */}
-          {props.projects.map((project) => (            
-            <ProjectCard project={project} />
+          {props.projects.map((project) => (
+            <ProjectCard project={project} key={project.id} />
           ))}
         </m.div>
       </m.div>
