@@ -1,10 +1,42 @@
-# Getting Started with Create React App
+# REACT PORTFOLIO
+[![License](https://img.shields.io/badge/License-MIT_License-green)](#license)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+Web developer portfolio built using React which showcases my skills and built projects.
+This is a fully responsive single page client side application which utilized 
+'framer motion' package for animations.
 
-In the project directory, you can run:
+
+- [REACT PORTFOLIO](#react-portfolio)
+  - [Description](#description)
+  - [Installation](#installation)
+    - [Link to GitHub Repo](#link-to-github-repo)
+    - [Link to deployed application](#link-to-deployed-application)
+    - [`npm start`](#npm-start)
+    - [`npm run build`](#npm-run-build)
+    - [`npm run deploy`](#npm-run-deploy)
+  - [Mock-up](#mock-up)
+    - [About](#about)
+    - [Portfolio](#portfolio)
+    - [Contact](#contact)
+    - [Resume](#resume)
+  - [Contributors](#contributors)
+  - [License:](#license)
+  - [Questions](#questions)
+    - [GitHub](#github)
+    - [e-mail](#e-mail)
+
+
+## Installation
+
+### Link to GitHub Repo
+
+[https://github.com/mnyzio/react-portfolio](https://github.com/mnyzio/react-portfolio)
+
+### Link to deployed application
+
+[https://mnyzio.github.io/react-portfolio/](https://mnyzio.github.io/react-portfolio/)
 
 ### `npm start`
 
@@ -14,11 +46,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
@@ -27,44 +54,43 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `npm run deploy`
 
-### `npm run eject`
+Builds the app for production to the `build` folder.\
+Depolyes build to gh-pages.\
+`*` make sure `homepage` is set to your github repo prior to deployment
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Mock-up
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### About
+![about](mocku-up/about.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Portfolio
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![portfolio](mocku-up/protfolio.png)
 
-## Learn More
+### Contact
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![contact](mocku-up/contact.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Resume
 
-### Code Splitting
+![resume](mocku-up/resume.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contributors
 
-### Analyzing the Bundle Size
+Mirek Nyzio
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## License:
 
-### Making a Progressive Web App
+MIT License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Questions
 
-### Advanced Configuration
+### GitHub
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+[www.github.com/mnyzio](www.github.com/mnyzio)
 
-### Deployment
+### e-mail
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[m.nyzio@outlook.com](m.nyzio@outlook.com)
