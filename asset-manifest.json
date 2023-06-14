@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.318ba256.css",
-    "main.js": "/react-portfolio/static/js/main.cc3b528d.js",
+    "main.js": "/react-portfolio/static/js/main.eabe19db.js",
     "static/media/Profile-picture-bw.jpg": "/react-portfolio/static/media/Profile-picture-bw.117f23aef41990e11659.jpg",
     "static/media/travel-sq.png": "/react-portfolio/static/media/travel-sq.023ed4b7edf3beafde67.png",
     "static/media/nexus-sq.png": "/react-portfolio/static/media/nexus-sq.4e669753ccaf22ccd815.png",
+    "static/media/toogle-sq.png": "/react-portfolio/static/media/toogle-sq.bc2f4e1baf23a6ae1aaf.png",
     "static/media/weather-sq.png": "/react-portfolio/static/media/weather-sq.2b2da284759c00aff1af.png",
     "static/media/techSpot-sq.png": "/react-portfolio/static/media/techSpot-sq.1ef2a97d53c4c7ee1b14.png",
     "static/media/quiz-sq.png": "/react-portfolio/static/media/quiz-sq.ddf3f832d21176c491fa.png",
     "static/media/writeIt-sq.png": "/react-portfolio/static/media/writeIt-sq.c327cd3ed82f52b8c5be.png",
     "index.html": "/react-portfolio/index.html",
     "main.318ba256.css.map": "/react-portfolio/static/css/main.318ba256.css.map",
-    "main.cc3b528d.js.map": "/react-portfolio/static/js/main.cc3b528d.js.map"
+    "main.eabe19db.js.map": "/react-portfolio/static/js/main.eabe19db.js.map"
   },
   "entrypoints": [
     "static/css/main.318ba256.css",
-    "static/js/main.cc3b528d.js"
+    "static/js/main.eabe19db.js"
   ]
 }
